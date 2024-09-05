@@ -6,6 +6,7 @@ UI for ESSPI Coding Challenge.
 - **Login Page:** Allows users to enter credentials.
 - **User Creation:** If a user does not exist, create a new user.
 - **Login Record:** Create a login record for every login attempt, whether the user is newly created or already exists.
+- **Dashboard:** After logging in, the user can view all login records displayed in a table and has the option to return to the login page.
 
 # Getting Started with Create React App
 
