@@ -62,7 +62,7 @@ const TableComponent = ({ data, onEdit }) => {
                 direction={orderBy === 'loginTime' ? order : 'asc'}
                 onClick={() => handleRequestSort('loginTime')}
               >
-                Login Time
+                Password
               </TableSortLabel>
             </TableCell>
             <TableCell>
@@ -71,10 +71,10 @@ const TableComponent = ({ data, onEdit }) => {
                 direction={orderBy === 'createdDate' ? order : 'asc'}
                 onClick={() => handleRequestSort('createdDate')}
               >
-                Created Date
+                Login Time
               </TableSortLabel>
             </TableCell>
-            <TableCell>Actions</TableCell>
+            <TableCell>Created Date</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
